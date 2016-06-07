@@ -41,4 +41,5 @@ PRODUCT_PACKAGES += \
     DMService \
     GCS \
     HiddenMenu \
+    HotwordEnrollment \
     SprintDM
