@@ -16,7 +16,6 @@
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener \
     TimeService
 
 PRODUCT_PACKAGES += \
@@ -27,13 +26,15 @@ PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api
+    libloc_api_v02
 
 PRODUCT_PACKAGES += \
     libtime_genoff
 
 PRODUCT_PACKAGES += \
     libtfa9895
+
+PRODUCT_PACKAGES += \
+    libqmi_oem_api
 
 $(call inherit-product, vendor/huawei/kiwi/kiwi-vendor-blobs.mk)
